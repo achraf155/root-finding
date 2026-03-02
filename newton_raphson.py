@@ -26,7 +26,7 @@ start = time()
 x , e, i = newtonRaphson(1, 1E-8)
 end = time()
 print('newton raphson estimated time' , (end - start) * 100) ## print out the ammount time taken to find the root
-
+print('root : ', x[-1])
 
 ## ploting the results using matplotlib module
 plt.plot(i, e, color = 'y', label = 'Newton raphson')
