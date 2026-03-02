@@ -30,7 +30,6 @@ print('newton raphson estimated time' , (end - start) * 100) ## print out the am
 
 ## ploting the results using matplotlib module
 plt.plot(i, e, color = 'y', label = 'Newton raphson')
-plt.axis((1, 20, 1e-8, 1e2))
 plt.yscale('log')
 plt.xlabel('Itterations') ## number of Iterations in order to find the root as x values
 plt.ylabel('Error') ## error approximations  as y values , as long as they get near to the eastimated error
