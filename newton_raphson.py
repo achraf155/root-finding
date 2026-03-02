@@ -23,7 +23,7 @@ def df(x) : return 2 * x + 1 ## primitive of f(x)
 
 ## main programm
 start = time()
-x , e, i = newton(1, 1E-8)
+x , e, i = newtonRaphson(1, 1E-8)
 end = time()
 print('newton raphson estimated time' , (end - start) * 100) ## print out the ammount time taken to find the root
 
